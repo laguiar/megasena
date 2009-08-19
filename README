@@ -1,7 +1,7 @@
-Gerador de números para sorteio da Mega Sena!
+<b>Gerador de números para sorteio da Mega Sena!</b>
 
 O sistema usa base histórica de sorteios reais, para descartar números e diminuir o universo de possibilidades.
 Com base nos valores possíveis restante após a análise histórica, são gerados 6 números aleatórios.
 
-Lembrando que a Mega Sena é um jogo de azar, se mesmo utilizando os critérios aqui definidos, não ganhar, AZAR O SEU!
+Lembrando que a Mega Sena é um jogo de azar, se mesmo utilizando os critérios aqui definidos, não ganhar, <b>AZAR O SEU!</b>
 
