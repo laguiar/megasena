@@ -1,0 +1,5 @@
+- Descartar números sequenciais (embora saiam até que com certa frequencia, mas a maioria dos sorteios não)
+- Verificar se o número selecionado não saiu nos últimos sorteios (definir quantidade de sorteios anteriores)
+- Ter uma base com números que mais saem e priorizar por frequencia.
+- Ter uma base dos números que menos saem, criar uma black list.
+
