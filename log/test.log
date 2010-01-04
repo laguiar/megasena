@@ -1,0 +1,1 @@
+  [4;36;1mConcurso Create (0.4ms)[0m   [0;1mINSERT INTO "concursos" ("created_at", "d1", "d2", "updated_at", "d3", "d4", "d5", "d6", "numero") VALUES('2010-01-04 20:36:26', 1, 1, '2010-01-04 20:36:26', 1, 1, 1, 1, 1)[0m
