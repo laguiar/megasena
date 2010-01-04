@@ -3,5 +3,10 @@
 O sistema usa base histórica de sorteios reais, para descartar números e diminuir o universo de possibilidades.
 Com base nos valores possíveis restante após a análise histórica, são gerados 6 números aleatórios.
 
-Lembrando que a Mega Sena é um jogo de azar, se mesmo utilizando os critérios aqui definidos, não ganhar, <b>AZAR O SEU!</b>
+Lembrando que a Mega Sena é um jogo de azar, se mesmo utilizando os critérios aqui definidos, você não ganhar, <b>AZAR O SEU!</b>
+
+<b>Fica como sugestão à todos que usarem o gerador de números e por ventura ganharem algum prêmio, que me doe 1% do valor premiado, não é obrigatório, afinal o código é livre, fica apenas como uma sugestão de agradecimento.</b>
+
+=)
+
 
