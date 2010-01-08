@@ -1,5 +1,3 @@
-#require 'mechanize'
-#require 'scrubyt'
 require 'nokogiri'
 require 'open-uri'
 
@@ -28,8 +26,12 @@ namespace :db do
     #puts data.to_s
     
     doc = Nokogiri::HTML(open("http://www.luizaguiar.com/d_megasc.htm"))
-    colunas = doc.xpath("//td")
-    puts colunas.to_s
+    doc.xpath('//table//tr').each do |row|
+    	x = row.xpath('td')[0...8].map do |cell|
+    		cell.text.gsub("\n", ' ').gsub('"', '\"').gsub(/(\s){2,}/m, '\1')
+    	end
+    	puts "#{x.join(",")}\n"
+    end
 
   end
 
