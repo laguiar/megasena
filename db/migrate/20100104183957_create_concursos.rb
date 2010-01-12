@@ -2,6 +2,7 @@ class CreateConcursos < ActiveRecord::Migration
   def self.up
     create_table :concursos do |t|
       t.integer :numero
+      t.string	:data
       t.integer :d1
       t.integer :d2
       t.integer :d3

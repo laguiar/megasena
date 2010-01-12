@@ -13,6 +13,7 @@ ActiveRecord::Schema.define(:version => 20100104183957) do
 
   create_table "concursos", :force => true do |t|
     t.integer  "numero"
+    t.string   "data"
     t.integer  "d1"
     t.integer  "d2"
     t.integer  "d3"
