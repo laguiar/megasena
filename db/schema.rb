@@ -9,7 +9,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100104183957) do
+ActiveRecord::Schema.define(:version => 20100112211604) do
+
+  create_table "combinacaos", :force => true do |t|
+    t.integer  "d1"
+    t.integer  "d2"
+    t.integer  "d3"
+    t.integer  "d4"
+    t.integer  "d5"
+    t.integer  "d6"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "concursos", :force => true do |t|
     t.integer  "numero"

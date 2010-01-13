@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  d1: 1
+  d2: 1
+  d3: 1
+  d4: 1
+  d5: 1
+  d6: 1
+
+two:
+  d1: 1
+  d2: 1
+  d3: 1
+  d4: 1
+  d5: 1
+  d6: 1

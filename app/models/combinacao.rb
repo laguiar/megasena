@@ -1,6 +1,4 @@
-class Concurso < ActiveRecord::Base
-	validates_presence_of :numero
-	validates_presence_of :data
+class Combinacao < ActiveRecord::Base
 	validates_presence_of :d1
 	validates_presence_of :d2
 	validates_presence_of :d3
